@@ -60,16 +60,20 @@ public class Main {
         System.out.println("Задача 6");
         //пишем код для задачи 6
         for (int r = 7; r <= 98; r = r + 7) {
-            System.out.println(r);
+            System.out.print(r + " ");
         }
+        System.out.println();
     }
 
     public static void task7() {
         System.out.println("Задача 7");
         //пишем код для задачи 7
+        int first = 1;
+        System.out.print(first + " ");
         for (int t = 2; t <= 512; t = t * 2){
-            System.out.println(t);
+            System.out.print(t + " ");
         }
+        System.out.println();
     }
     public static void task8() {
         System.out.println("Задача 8");
@@ -86,8 +90,8 @@ public class Main {
     public static void task9() {
         System.out.println("Задача 9");
         //пишем код для задачи 9
-        int invest = 29000;
-        int total = 0;
+        double invest = 29000;
+        double total = 0;
 
         for (int m = 1; m <= 12; m++) {
             invest = invest + invest/100;
