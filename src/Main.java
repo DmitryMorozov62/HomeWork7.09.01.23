@@ -11,6 +11,9 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
+        task9();
+        task10();
     }
 
     public static void task1() {
@@ -66,6 +69,44 @@ public class Main {
         //пишем код для задачи 7
         for (int t = 2; t <= 512; t = t * 2){
             System.out.println(t);
+        }
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
+        //пишем код для задачи 8
+        int invest = 29000;
+        int total = 0;
+
+        for (int s = 1; s <= 12; s++) {
+            total = total + invest;
+            System.out.println("Месяц " + s + ", сумма " + total);
+        }
+    }
+
+    public static void task9() {
+        System.out.println("Задача 9");
+        //пишем код для задачи 9
+        int invest = 29000;
+        int total = 0;
+
+        for (int m = 1; m <= 12; m++) {
+            invest = invest + invest/100;
+            total = total + invest;
+            System.out.println("Месяц " + m + ", сумма накоплений равна " + total + " рублей.");
+        }
+    }
+
+    public static void task10 () {
+        System.out.println("Задача 10");
+        //пишем код для задачи 10
+        int number = 2;
+        int factor = 0;
+        int sum;
+
+        for (int n = 0; n < 10; n++ ) {
+            factor++;
+            sum = number * factor;
+            System.out.println(number + " * " + factor + " = " + sum);
         }
     }
 
